@@ -1,0 +1,77 @@
+\relax 
+\catcode `"\active 
+\catcode `<\active 
+\catcode `>\active 
+\@nameuse{es@quoting}
+\catcode 95\active
+\babel@aux{spanish}{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Implementaci\IeC {\'o}n}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Aspectos generales}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces P\IeC {\'\i }xel ARGB}}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Ocultar}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Ciclo}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Conversi\IeC {\'o}n a escala de grises}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Separaci\IeC {\'o}n de componentes RGB con una ma\IeC {\'s}cara}}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Alineado a derecha y empaquetado de componentes RGB}}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Suma de componentes RGB}}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Empaquetado con saturaci\IeC {\'o}n de p\IeC {\'\i }xeles en escala de grises}}{7}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3}Reorganizaci\IeC {\'o}n de bits y encriptaci\IeC {\'o}n con {\tt  xor}}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Separaci\IeC {\'o}n y combinaci\IeC {\'o}n de bits 4 y 7 (a ocultar en componente B)}}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Combinaci\IeC {\'o}n de bits para guardar en RGB}}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Shuffle de p\IeC {\'\i }xeles de imagen en espejo}}{8}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.4}Combinaci\IeC {\'o}n con {\tt  src1}}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Descubrir}{8}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1}Ciclo}{8}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2}Desencriptaci\IeC {\'o}n}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces P\IeC {\'\i }xel reconstruido}}{9}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.3}Reconstrucci\IeC {\'o}n del p\IeC {\'\i }xel}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Reconstrucci\IeC {\'o}n del p\IeC {\'\i }xel (bits 2 y 3)}}{9}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.4}Copia en las tres componentes}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Armado de los p\IeC {\'\i }xeles finales}}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Zigzag}{10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.1}Ciclo}{10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.2}Marco blanco}{10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.3}Filas impares}{10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.4}Filas pares}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Copia y shifteo de registros}}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Desempaquetar byte a word}}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Desempaquetado a 32 bits}}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Empaquetado a byte}}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Experimentaci\IeC {\'o}n}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Metodolog\IeC {\'\i }a}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}An\IeC {\'a}lisis de costo de procesamiento}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Costo relativo de los accesos a memoria, ciclo y procesamiento de los p\IeC {\'\i }xeles en los tres filtros}}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Experimento 0: Comparaci\IeC {\'o}n C vs ASM}{13}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Descripci\IeC {\'o}n del problema}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Resumen del funcionamiento de los flags}}{14}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}Hip\IeC {\'o}tesis}{14}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3}Resultados}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Comparaci\IeC {\'o}n C vs ASM: Ocultar}}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Comparaci\IeC {\'o}n C vs ASM: Descubrir}}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Comparaci\IeC {\'o}n C vs ASM: Zigzag}}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Experimento 1: Desenrollar ciclos}{15}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1}Descripci\IeC {\'o}n del problema}{15}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2}Hip\IeC {\'o}tesis}{16}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.3}Resultados}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Desenrollar ciclos: Ocultar}}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Desenrollar ciclos: Descubrir}}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Desenrollar ciclos: Zigzag}}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Experimento 2: Extender ciclos}{17}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.1}Descripci\IeC {\'o}n del problema}{17}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.2}Hip\IeC {\'o}tesis}{18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.3}Resultados}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces 8 vs 16 p\IeC {\'\i }xeles: Ocultar}}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces 8 vs 16 p\IeC {\'\i }xeles: Descubrir}}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Experimento 3: Optimizar accesos a memoria}{18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.6.1}Descripci\IeC {\'o}n del problema}{18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.6.2}Hip\IeC {\'o}tesis}{19}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.6.3}Resultados}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Optimizaci\IeC {\'o}n de accesos a memoria: Ocultar}}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces Optimizaci\IeC {\'o}n de accesos a memoria: Descubrir}}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Experimento 4: Reemplazar divisi\IeC {\'o}n en float por divisi\IeC {\'o}n entera}{20}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.7.1}Descripci\IeC {\'o}n del problema}{20}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.7.2}Hip\IeC {\'o}tesis}{21}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.7.3}Resultados}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces Zigzag: Comparaci\IeC {\'o}n divisi\IeC {\'o}n float con divisi\IeC {\'o}n entera}}{21}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Conclusi\IeC {\'o}n}{21}}

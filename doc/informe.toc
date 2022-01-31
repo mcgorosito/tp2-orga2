@@ -1,0 +1,43 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{4}
+\contentsline {section}{\numberline {2}Implementaci\IeC {\'o}n}{4}
+\contentsline {subsection}{\numberline {2.1}Aspectos generales}{4}
+\contentsline {subsection}{\numberline {2.2}Ocultar}{4}
+\contentsline {subsubsection}{\numberline {2.2.1}Ciclo}{5}
+\contentsline {subsubsection}{\numberline {2.2.2}Conversi\IeC {\'o}n a escala de grises}{5}
+\contentsline {subsubsection}{\numberline {2.2.3}Reorganizaci\IeC {\'o}n de bits y encriptaci\IeC {\'o}n con {\tt xor}}{7}
+\contentsline {subsubsection}{\numberline {2.2.4}Combinaci\IeC {\'o}n con {\tt src1}}{8}
+\contentsline {subsection}{\numberline {2.3}Descubrir}{8}
+\contentsline {subsubsection}{\numberline {2.3.1}Ciclo}{8}
+\contentsline {subsubsection}{\numberline {2.3.2}Desencriptaci\IeC {\'o}n}{9}
+\contentsline {subsubsection}{\numberline {2.3.3}Reconstrucci\IeC {\'o}n del p\IeC {\'\i }xel}{9}
+\contentsline {subsubsection}{\numberline {2.3.4}Copia en las tres componentes}{10}
+\contentsline {subsection}{\numberline {2.4}Zigzag}{10}
+\contentsline {subsubsection}{\numberline {2.4.1}Ciclo}{10}
+\contentsline {subsubsection}{\numberline {2.4.2}Marco blanco}{10}
+\contentsline {subsubsection}{\numberline {2.4.3}Filas impares}{10}
+\contentsline {subsubsection}{\numberline {2.4.4}Filas pares}{11}
+\contentsline {section}{\numberline {3}Experimentaci\IeC {\'o}n}{12}
+\contentsline {subsection}{\numberline {3.1}Metodolog\IeC {\'\i }a}{12}
+\contentsline {subsection}{\numberline {3.2}An\IeC {\'a}lisis de costo de procesamiento}{13}
+\contentsline {subsection}{\numberline {3.3}Experimento 0: Comparaci\IeC {\'o}n C vs ASM}{13}
+\contentsline {subsubsection}{\numberline {3.3.1}Descripci\IeC {\'o}n del problema}{13}
+\contentsline {subsubsection}{\numberline {3.3.2}Hip\IeC {\'o}tesis}{14}
+\contentsline {subsubsection}{\numberline {3.3.3}Resultados}{14}
+\contentsline {subsection}{\numberline {3.4}Experimento 1: Desenrollar ciclos}{15}
+\contentsline {subsubsection}{\numberline {3.4.1}Descripci\IeC {\'o}n del problema}{15}
+\contentsline {subsubsection}{\numberline {3.4.2}Hip\IeC {\'o}tesis}{16}
+\contentsline {subsubsection}{\numberline {3.4.3}Resultados}{16}
+\contentsline {subsection}{\numberline {3.5}Experimento 2: Extender ciclos}{17}
+\contentsline {subsubsection}{\numberline {3.5.1}Descripci\IeC {\'o}n del problema}{17}
+\contentsline {subsubsection}{\numberline {3.5.2}Hip\IeC {\'o}tesis}{18}
+\contentsline {subsubsection}{\numberline {3.5.3}Resultados}{18}
+\contentsline {subsection}{\numberline {3.6}Experimento 3: Optimizar accesos a memoria}{18}
+\contentsline {subsubsection}{\numberline {3.6.1}Descripci\IeC {\'o}n del problema}{18}
+\contentsline {subsubsection}{\numberline {3.6.2}Hip\IeC {\'o}tesis}{19}
+\contentsline {subsubsection}{\numberline {3.6.3}Resultados}{19}
+\contentsline {subsection}{\numberline {3.7}Experimento 4: Reemplazar divisi\IeC {\'o}n en float por divisi\IeC {\'o}n entera}{20}
+\contentsline {subsubsection}{\numberline {3.7.1}Descripci\IeC {\'o}n del problema}{20}
+\contentsline {subsubsection}{\numberline {3.7.2}Hip\IeC {\'o}tesis}{21}
+\contentsline {subsubsection}{\numberline {3.7.3}Resultados}{21}
+\contentsline {section}{\numberline {4}Conclusi\IeC {\'o}n}{21}
